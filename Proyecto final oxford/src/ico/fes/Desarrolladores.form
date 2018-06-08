@@ -12,9 +12,7 @@
     <Property name="locationByPlatform" type="boolean" value="true"/>
   </Properties>
   <SyntheticProperties>
-    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-46,0,0,2,-55"/>
-    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
-    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
     <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
   </SyntheticProperties>
   <AuxValues>
@@ -32,27 +30,27 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="218" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="224" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="286" max="32767" attributes="0"/>
+              <EmptySpace pref="296" max="32767" attributes="0"/>
           </Group>
           <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" max="32767" attributes="0"/>
                   <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jScrollPane1" pref="376" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -63,30 +61,22 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="45" green="45" red="45" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="&lt;&lt;"/>
+        <Property name="actionCommand" type="java.lang.String" value="&lt;&lt;"/>
+        <Property name="label" type="java.lang.String" value="&lt;&lt;"/>
       </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="&lt;&lt;"/>
+      </AccessibilityProperties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
-      <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="2a" green="2a" red="2a" type="rgb"/>
-        </Property>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Arial" size="14" style="1"/>
-        </Property>
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="ff" red="ff" type="rgb"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Conceptos basicos"/>
-      </Properties>
-    </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
-      <AuxValues>
-        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-      </AuxValues>
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[243, 98]"/>
+        </Property>
+      </Properties>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
@@ -103,10 +93,24 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; es la ingenier&#xed;a de software?&#xa;&#xa;La Ingenier&#xed;a del Software es la rama de la ingenier&#xed;a que crea y mantiene las aplicaciones de software usando&#xa;tecnolog&#xed;as y pr&#xe1;cticas de las ciencias de la computaci&#xf3;n, manejo de proyectos, ingenier&#xed;a, el &#xe1;mbito de la aplicaci&#xf3;n,&#xa;y otros campos.&#xa;&#xa;&#xa;Ciclo de vida del Software&#xa;&#xa;El prop&#xf3;sito de estos ciclos es definir las distintas fases intermedias que son requeridas para dar validaci&#xf3;n al&#xa;desarrollo de la aplicaci&#xf3;n y de ese modo garantizar que el software cumpla con los requisitos esperados as&#xed; como&#xa;dar verificaci&#xf3;n de los procedimientos de desarrollo.&#xa;&#xa;&#xa;El Proceso&#xa;&#xa;En la Ingenier&#xed;a de Software se le llama as&#xed; a un conjunto estructurado de actividades requeridas para desarrollar un&#xa;sistema de software, el cual debe involucrar distintas tareas que emplean distintas t&#xe9;cnicas y herramientas.&#xa;&#xa;&#xa;M&#xe9;todos&#xa;&#xa;Son las formas organizadas con las que se es capaz de producir software y que pueden incluir varios modelos ya&#xa;establecidos as&#xed; como ciertos dise&#xf1;os.&#xa;&#xa;&#xa;Metodolog&#xed;as&#xa;&#xa;Una metodolog&#xed;a se encarga de elaborar estrategias de desarrollo de software que promueven pr&#xe1;cticas adaptadas&#xa;en vez de predictivas, y que se centran en las personas o los equipos, pero que est&#xe1;n orientados hacia la funcionalidad&#xa;y la entrega, adem&#xe1;s de requerir comunicaci&#xf3;n intensiva ya que hay siempre una implicaci&#xf3;n directa con el cliente.&#xa;&#xa;&#xa;Herramientas&#xa;&#xa;Permiten que una organizaci&#xf3;n o equipo de software defina un modelo completo del proceso (actividades, acciones,&#xa;tareas, etc) y proporcionan un mapa conforme se va realizando el trabajo para las personas encargadas de darle&#xa;seguimiento y control al proceso del software.&#xa;&#xa;&#xa;Paradigma&#xa;&#xa;Son modelos que nos ayudan a comprender la realidad y que permiten relacionarnos con el mundo, en el caso de la&#xa;Ingenier&#xed;a de Software, los paradigmas definen un desarrollo estructurado como base a seguir en un proyecto de software"/>
+            <Property name="text" type="java.lang.String" value="&#xa;Nombre: Barrera Gonz&#xe1;lez Mario&#xa;N&#xfa;mero de Cuenta:&#xa;Correo Electr&#xf3;nico: mario97barrera@gmail.com  &#xa;Semestre: Sexto   &#xa;Hobbie: &#xa;Redes Sociales:&#xa;&#xa;Nombre: Ledesma Morales Aidam Isa&#xed;&#xa;N&#xfa;mero de Cuenta: 313203385&#xa;Correo Electr&#xf3;nico: psnisawii@gmail.com   &#xa;Semestre: Sexto   &#xa;Hobbie: Rocket League , Videos , Lauder&#xed;a&#xa;Redes Sociales:&#xa;&#xa;Nombre: Montes Cervantes Rodrigo&#xa;N&#xfa;mero de Cuenta: 312155494&#xa;Correo Electr&#xf3;nico: rodarmon2296@gmail.com  &#xa;Semestre: Sexto   &#xa;Hobbie: Ajedrez, F&#xfa;tbol , Squash&#xa;Redes Sociales:&#xa;&#xa;Nombre: Palomar Castro Miguel &#xc1;ngel&#xa;N&#xfa;mero de Cuenta:313345436&#xa;Correo Electr&#xf3;nico: palomar.miguel2d@gmail.com&#xa;Semestre: Sexto   &#xa;Hobbie: Osu! , Overwatch&#xa;Redes Sociales:  https://www.facebook.com/miguel.a.palomar.9 "/>
           </Properties>
         </Component>
       </SubComponents>
     </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="2a" green="2a" red="2a" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Desarrolladores"/>
+      </Properties>
+    </Component>
   </SubComponents>
 </Form>
