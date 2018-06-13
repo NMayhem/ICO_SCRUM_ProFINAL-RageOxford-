@@ -72,7 +72,7 @@ public class Desarrolladores extends javax.swing.JFrame {
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ico/fes/Pics/Elroy.png"))); // NOI18N
 
         jTextPane3.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jTextPane3.setText("Nombre: Montes Cervantes Rodrigo\nNúmero de Cuenta: 312155494\nCorreo Electrónico: rodarmon2296@gmail.com\nSemestre: Sexto.\nHobbie: Ajedrez, Fútbol, Squash.");
+        jTextPane3.setText("Nombre: Montes Cervantes Rodrigo.\nNúmero de Cuenta: 312155494.\nCorreo Electrónico: rodarmon2296@gmail.com\nSemestre: Sexto.\nHobbie: Ajedrez, Fútbol, Squash.");
         jScrollPane3.setViewportView(jTextPane3);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -94,9 +94,9 @@ public class Desarrolladores extends javax.swing.JFrame {
                         .addGap(68, 68, 68)
                         .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(50, 50, 50)
+                        .addGap(20, 20, 20)
                         .addComponent(jLabel4)))
-                .addGap(0, 61, Short.MAX_VALUE))
+                .addGap(0, 19, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("El Roy", jPanel3);
@@ -128,9 +128,9 @@ public class Desarrolladores extends javax.swing.JFrame {
                         .addGap(68, 68, 68)
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(50, 50, 50)
+                        .addGap(20, 20, 20)
                         .addComponent(jLabel5)))
-                .addGap(0, 61, Short.MAX_VALUE))
+                .addGap(0, 19, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("El Mashan", jPanel4);
@@ -138,7 +138,7 @@ public class Desarrolladores extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(69, 69, 69));
 
         jTextPane1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jTextPane1.setText("Nombre: Barrera González Mario Alberto.\nNúmero de Cuenta: .\nCorreo Electrónico: mario97barrera@gmail.com\nSemestre: Sexto.\nHobbies: Fortnite, Stand-ups.");
+        jTextPane1.setText("Nombre: Barrera González Mario Alberto.\nNúmero de Cuenta: 313075513.\nCorreo Electrónico: mario97barrera@gmail.com\nSemestre: Sexto.\nHobbies: Fortnite, Stand-ups.");
         jScrollPane1.setViewportView(jTextPane1);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ico/fes/Pics/elmary.png"))); // NOI18N
@@ -163,9 +163,9 @@ public class Desarrolladores extends javax.swing.JFrame {
                         .addGap(68, 68, 68)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(50, 50, 50)
+                        .addGap(20, 20, 20)
                         .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(0, 61, Short.MAX_VALUE))
+                .addGap(0, 19, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("El Mary", jPanel1);
@@ -197,9 +197,9 @@ public class Desarrolladores extends javax.swing.JFrame {
                         .addGap(68, 68, 68)
                         .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(50, 50, 50)
+                        .addGap(20, 20, 20)
                         .addComponent(jLabel3)))
-                .addGap(0, 61, Short.MAX_VALUE))
+                .addGap(0, 19, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("El Oidam", jPanel2);
@@ -227,7 +227,7 @@ public class Desarrolladores extends javax.swing.JFrame {
                     .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel1))
                 .addGap(18, 18, 18)
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 289, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 277, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
