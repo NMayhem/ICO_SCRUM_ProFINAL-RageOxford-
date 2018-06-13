@@ -71,7 +71,10 @@ public class Desarrolladores extends javax.swing.JFrame {
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ico/fes/Pics/Elroy.png"))); // NOI18N
 
+        jTextPane3.setEditable(false);
+        jTextPane3.setBackground(new java.awt.Color(42, 42, 42));
         jTextPane3.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jTextPane3.setForeground(new java.awt.Color(255, 255, 255));
         jTextPane3.setText("Nombre: Montes Cervantes Rodrigo.\nNúmero de Cuenta: 312155494.\nCorreo Electrónico: rodarmon2296@gmail.com\nSemestre: Sexto.\nHobbie: Ajedrez, Fútbol, Squash.");
         jScrollPane3.setViewportView(jTextPane3);
 
@@ -105,8 +108,11 @@ public class Desarrolladores extends javax.swing.JFrame {
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ico/fes/Pics/mashann.png"))); // NOI18N
 
+        jTextPane4.setEditable(false);
+        jTextPane4.setBackground(new java.awt.Color(42, 42, 42));
         jTextPane4.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jTextPane4.setText("Nombre: Palomar Castro Miguel Ángel.\nNúmero de Cuenta: 313345436.\nCorreo Electrónico: palomar.miguel2d@gmail.com\nSemestre: Sexto.\nHobbie: Osu!, Overwatch.\nRedes Sociales:  https://www.facebook.com/miguel.a.palomar.9");
+        jTextPane4.setForeground(new java.awt.Color(255, 255, 255));
+        jTextPane4.setText("Nombre: Palomar Castro Miguel Ángel. Número de Cuenta: 313345436. Correo Electrónico: palomar.miguel2d@gmail.com Semestre: Sexto. Hobbie: osu!, Overwatch. Redes Sociales:  https://www.facebook.com/miguel.a.palomar.9");
         jScrollPane2.setViewportView(jTextPane4);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -137,7 +143,10 @@ public class Desarrolladores extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(69, 69, 69));
 
+        jTextPane1.setEditable(false);
+        jTextPane1.setBackground(new java.awt.Color(42, 42, 42));
         jTextPane1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jTextPane1.setForeground(new java.awt.Color(255, 255, 255));
         jTextPane1.setText("Nombre: Barrera González Mario Alberto.\nNúmero de Cuenta: 313075513.\nCorreo Electrónico: mario97barrera@gmail.com\nSemestre: Sexto.\nHobbies: Fortnite, Stand-ups.");
         jScrollPane1.setViewportView(jTextPane1);
 
@@ -174,7 +183,10 @@ public class Desarrolladores extends javax.swing.JFrame {
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ico/fes/Pics/Eloi.png"))); // NOI18N
 
+        jTextPane2.setEditable(false);
+        jTextPane2.setBackground(new java.awt.Color(42, 42, 42));
         jTextPane2.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jTextPane2.setForeground(new java.awt.Color(255, 255, 255));
         jTextPane2.setText("Nombre: Ledesma Morales Aidam Isaí.\nNúmero de Cuenta: 313203385.\nCorreo Electrónico: psnisawii@gmail.com\nSemestre: Sexto.\nHobbie: Rocket League, Laudería.");
         jScrollPane4.setViewportView(jTextPane2);
 
