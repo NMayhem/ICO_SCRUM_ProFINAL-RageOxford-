@@ -65,11 +65,14 @@ public class Conceptos_basicos extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton1)
-                .addGap(218, 218, 218)
-                .addComponent(jLabel1)
-                .addContainerGap(286, Short.MAX_VALUE))
-            .addComponent(jScrollPane1)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jButton1)
+                        .addGap(218, 218, 218)
+                        .addComponent(jLabel1)
+                        .addGap(0, 299, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -83,7 +86,7 @@ public class Conceptos_basicos extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        setSize(new java.awt.Dimension(713, 466));
+        setSize(new java.awt.Dimension(736, 466));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
